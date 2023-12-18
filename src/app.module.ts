@@ -15,7 +15,6 @@ import { User } from './user/entities/user.entity';
       password: null,
       database: 'stackoverflow',
       entities: [User],
-
       synchronize: true,
     }),
     UserModule,
